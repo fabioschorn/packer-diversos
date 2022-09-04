@@ -1,3 +1,4 @@
+*	text=auto
 language-configuration.json linguist-language=jsonc
 .vscode/**.json linguist-language=jsonc
 *.json text eol=lf
