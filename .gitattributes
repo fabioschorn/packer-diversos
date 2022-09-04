@@ -1,6 +1,8 @@
-# Basic .gitattributes for a Packer repo.
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
 
-# Source files
-# ============
-*.json    text diff=json
-*.yml     text diff=yml
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.md linguist-detectable=true
+*.json linguist-detectable=true
+*.yml linguist-detectable=true
