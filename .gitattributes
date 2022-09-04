@@ -1,4 +1,5 @@
 language-configuration.json linguist-language=jsonc
 .vscode/**.json linguist-language=jsonc
-exemples/*.json text eol=lf
-exemples/*.md text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
