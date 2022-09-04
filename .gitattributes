@@ -1,6 +1,6 @@
-# Autodetect text files
+# Autodetect files
 * text=auto eol=lf
 
-# Definitively text files
+# Definitively files
 *.json text
 *.yml  text
