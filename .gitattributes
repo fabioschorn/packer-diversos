@@ -1,6 +1,6 @@
-# Autodetect files
-* text=auto eol=lf
+# Basic .gitattributes for a Packer repo.
 
-# Definitively files
-*.json text
-*.yml  text
+# Source files
+# ============
+*.json    text diff=json
+*.yml     text diff=yml
